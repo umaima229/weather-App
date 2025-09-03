@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini Weather App</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funny Premium Weather App</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="weather-container">
-    <h1>🌦 Mini Weather App</h1>
-    <input type="number" id="tempInput" placeholder="Enter temperature (°C)">
-    <button onclick="checkWeather()">Check Weather</button>
-    <p id="result"></p>
-  </div>
+<!-- Overlay for depth effect -->
+<div class="overlay"></div>
 
-  <script src="script.js"></script>
+<!-- Weather Card -->
+<div class="weather-container">
+    <h1 class="gradient-text">🌦 Weather Mood</h1>
+    <input type="number" id="tempInput" placeholder="Enter Temperature (°C)">
+    <button onclick="updateWeather()">Check Weather</button>
+    <p id="result"></p>
+</div>
+
+<!-- Animations container -->
+<div id="effects"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
