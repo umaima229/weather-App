@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    transition: background 0.5s ease;
+  }
+  
+  .weather-container {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(0px); 
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 320px;
+  }
+  
+  
+  .weather-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .weather-container input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .weather-container button {
+    padding: 10px 20px;
+    border: none;
+    background: #4facfe;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
